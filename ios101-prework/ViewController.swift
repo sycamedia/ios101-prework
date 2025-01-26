@@ -7,25 +7,39 @@
 
 import UIKit
 
-class ViewController: UIViewController {
 
+
+class ViewController: UIViewController {
+    @IBOutlet weak var currentColor: UILabel!
+    
+    var currentRed: CGFloat = 1.0
+    var currentGreen: CGFloat = 1.0
+    var currentBlue: CGFloat = 1.0
+    var currentAlpha: CGFloat = 0.5
+    var currentBackgroundColor = UIColor(red: 1.0, green: 1.0, blue: 1.0, alpha: 0.5)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        currentColor.text = "\(currentRed), \(currentGreen), \(currentBlue)"
     }
-
+    
     @IBAction func changeBackgroundColor(_ sender: UIButton) {
+        
         func changeColor() -> UIColor{
 
-            let red = CGFloat.random(in: 0...1)
-            let green = CGFloat.random(in: 0...1)
-            let blue = CGFloat.random(in: 0...1)
+            currentRed = CGFloat.random(in: 0...1)
+            currentGreen = CGFloat.random(in: 0...1)
+            currentBlue = CGFloat.random(in: 0...1)
 
-            return UIColor(red: red, green: green, blue: blue, alpha: 0.5)
+            return UIColor(red: currentRed, green: currentGreen, blue: currentBlue, alpha: currentAlpha)
         }
         
-        let randomColor = changeColor()
-        view.backgroundColor = randomColor
+        currentBackgroundColor = changeColor()
+        view.backgroundColor = currentBackgroundColor
+        currentColor.text = String(format: "%.2f, %.2f, %.2f", currentRed, currentGreen, currentBlue)
+    }
+    @IBAction func changeRed(_ sender: UIStepper) {
+
     }
     
 }
