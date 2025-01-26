@@ -19,9 +19,7 @@ Additional features:
  
 ## Video Walkthrough
 
-Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove this reminder once you upload your README. 
-
-[Screen capture]](https://i.imgur.com/Euc7hzm.mp4) .
+[Screen capture](https://i.imgur.com/Euc7hzm.mp4)
 
 ## App Brainstorming (Step 4)
 
@@ -29,22 +27,25 @@ Here is a reminder on how to embed Loom videos on GitHub. Feel free to remove th
 
 - Chineasy (mobile): Straightforward interface where it's easy to find everything. Simple but effective art style.
 - Shirable Jisho (mobile): Ability to save and organize information the way I want. Multiple methods of searching for dictionary entries. Extra information within dictionary entries that I can dive into if I want to.
+- Freeform (desktop): Quickly jot down information on sticky notes. Paste links in the same space and see link previews. Visually group information together.
+- draw.io (web): Able to link different shapes together intelligently. A few pre-made objects for specific use cases.
+- WaniKani (web): Incredible brand voice. Sleek interface and simple color scheme with illustrations for intrigue. 
 
 ### An app I want to make
 
 I'd like to make a to-do list app for people who struggle with perfectionism and task avoidance. Traditional to-do list apps can become overwhelming when tasks accumulate. The app would have these features:
 
-- Ability to group tasks by value category (school, career, painting, pets); each category has a status bar that shows the user how "weak" the category is, allowing them to focus on which areas of their life need attention rather than fixating on a list of tasks. The user can adjust how quickly the status bar decays and how much a certain task replenishes the bar
+- Ability to group tasks by value category (e.g. school, career, drawing, pets); each category has a status bar that shows the user how "weak" the category is, allowing the user to focus on which areas of their life need attention rather than fixating on a list of tasks. The user can adjust how quickly the status bar decays and how much a certain task replenishes the bar
 - Prompts for overdue tasks asking if the user would like to adjust the due date or scope of the task
 - A check-in tool allowing the user to track their mood, particularly as it relates to staying on top of their tasks
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Had to get used to how Swift handles data types, as well as the specific data types used by UIKit. Changing UI element attributes from the interface builder is a bit overwhelming, would be nice to do with code instead. 
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2025 Sycamore Dennis
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
