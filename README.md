@@ -31,7 +31,7 @@ Additional features:
 - draw.io (web): Able to link different shapes together intelligently. A few pre-made objects for specific use cases.
 - WaniKani (web): Incredible brand voice. Sleek interface and simple color scheme with illustrations for intrigue. 
 
-### An app I want to make
+### An app I want to make:
 
 I'd like to make a to-do list app for people who struggle with perfectionism and task avoidance. Traditional to-do list apps can become overwhelming when tasks accumulate. The app would have these features:
 
